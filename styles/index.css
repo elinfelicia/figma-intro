@@ -1,6 +1,27 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Ramaraja', serif;
 font-family: 'Roboto', sans-serif; */
+.nav-text {
+    display: inline;
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-top: 48px;
+
+}
+.nav-left, .logo {
+    display: inline;
+    float: left;
+    margin-top: 48px;
+
+}
+.nav-right {
+    display: inline;
+    float: right;
+}
+header {
+    display: inline-block;
+    width: 100%;
+}
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -11,6 +32,7 @@ font-family: 'Roboto', sans-serif; */
     color: #0A1B32;
     margin-top: 37px;
     margin-left: 80px;
+    margin-right: 98px;
 }
 .logo-dot {
     color: #33A2E0
@@ -61,4 +83,9 @@ section {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+#signup-btn {
+    margin-left: 40px;
+    margin-right: 68px;
+    margin-top: 30px;
 }
